@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+}
+
+hr{
+    border: dotted #003e29 12px;
+    border-bottom: none;
+    width: 10%;
+    margin: 30px auto;
+    opacity: 0.75;
+}
+
+
+
+/* navbar section */
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.navbar-brand{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    background-color: #003e29;
+    color: white;
+    border-radius: 6px;
+}
+
+.navsection{
+    width: 100%;
+    height: 100vh;
+    background: url(myslider);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* title section */
+
+.titleImg{
+    height: 100%;
+    width: 100%;
+}
+
+/* carousel section */
+
+
+/* technology section */
+#technology{
+    text-align: center;
+    padding: 7% 7% 5%;
+    background-color: white;
+    position: relative;
+}
+
+.TechnologyHeading{
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 3.5rem; */
+    margin-bottom: 70px;
+    color: #003e29;
+}
+
+.card-box{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.TechnologyExploreButton{
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+
+/* Seeds & pesticides section */
+
+#SeedsPesticides{
+    text-align: center;
+    padding: 1% 7% 5%;
+    background-color: white;
+    position: relative;
+}
+
+.SeedsPesticidesTopHeading{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 70px;
+    color: #003e29;
+}
+
+.SeedsPesticidesHeading{
+    margin-bottom: 30px;
+    color: #003e29;
+}
+
+.SeedExploreButton{
+    text-align: center;
+    margin: 50px auto 10px;
+}
+
+.SeedsPesticidesButton{
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+.SeedsPesticidesExtraButton{
+    text-align: center;
+    margin: 15px auto 20px;
+
+}
+
+.SeedCarousel1{
+    padding-right: 100px;
+}
+
+.SeedCarousel2{
+    padding-left: 100px;
+}
+
+.carouselIcon{
+    background-color: #003e29;
+    border-radius: 7px;
+}
+
+/* schemes section */
+
+#Schemes{
+    text-align: center;
+    padding: 7% 7% 5%;
+    background-color: #003e29;
+    position: relative;
+}
+
+.scheme-card-body{
+    background-color: white;
+}
+
+.SchemeExploreButton{
+    text-align: center;
+    margin: 50px auto 0px;
+    --bs-btn-color:white;
+    --bs-btn-border-color:white;
+}
+
+.schemeBlock{
+    text-align: center;
+    padding-bottom: 5%;
+    /* width: 286px;
+    height: 230px; */
+}
+
+.SchemesHeading{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 70px;
+    color: white;
+}
+
+
+/* IoT Technology section */
+
+#IoTSection{
+    text-align: center;
+    padding: 7% 7% 5%;
+    background-color: white;
+    position: relative;
+}
+
+/* contact us */
+
+#ContactUs{
+    background-color: #003e29;
+}
+
+
+#footer{
+    color: white;
+    text-align: center;
+    padding: 2% 15% 2%;   
+}
+
+.social_media{
+    padding: 0 30px;
+}
+
+.copyright{
+    margin: 40px 0 0 0;
+}
+
+.footerh1{
+    padding-bottom: 3%;
+}
+
+.slide1Headline{
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    top: 250px;
+    font-size: 3.5rem;
+}
+
+.slide2Headline{
+    position: relative;
+    font-family: 'Water Brush', cursive;
+    color: white;
+    top: 260px;
+    font-size: 4rem;
+}
+
+
+@media(max-width:1100px){
+    #SeedsPesticides{
+        text-align: center;
+        padding-bottom: 20px auto;
+    }
+}
+
+@media(max-width:990px){
+nav ul li a{
+    left: 0%;
+    line-height: 48px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+}
