@@ -258,3 +258,48 @@ nav ul li a{
     text-transform: uppercase;
 }
 }
+
+
+/* technology Page */
+
+
+.container-fluid{
+    padding: 10% 10%;
+    box-shadow: 5px 10px;
+}
+
+.cont-h5{
+    margin-top: 30px;
+}
+.topImages{
+    float: left;
+    margin-right: 60px;
+    /* bottom: 2px; */
+}
+
+.horz-info{
+    width: 100%;
+    text-align: left;
+}
+
+.horz-info_descp{
+    text-align: left;
+}
+
+.card{
+    margin-right: 120px;
+    margin-bottom: 80px;
+    box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.more_info_btn{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
